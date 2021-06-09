@@ -1,4 +1,4 @@
 # MethodPayment
-[MethodPayment Preview](https://method-payment-css.netlify.app/)
+[MethodPayment Preview](https://pedantic-edison-0005bd.netlify.app/)
 ![Preview Page](prev.png)
 
