@@ -1,0 +1,258 @@
+* {
+    box-sizing: border-box;
+  }
+   
+  html,
+  body {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: #f4f4f4;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .checkout-panel {
+    display: flex;
+    flex-direction: column;
+    width: 570px;
+    height: 670px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .2);
+  }
+
+  .panel-body {
+    padding: 25px 40px 0;
+    flex: 1;
+  }
+   
+  .title {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0;
+    margin-bottom: -10px;
+    color: #666666;
+    font-size: 24px;
+    font-weight: 100;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    padding:30px 0 30px 0;
+    background-color: rgb(241, 241, 241);
+   
+    
+  }
+
+  .payment-method {
+    display: grid;
+    margin-bottom: 60px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+   
+  .method {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+
+  .method-info{
+      font-size: 12px;
+      font-family: 'Noto Sans', sans-serif;
+      color: #666666;
+  }
+
+  .card-info,
+  .paypal-info{
+      width: 73%;
+      margin-left: 35px;
+      margin-top: 5px;
+  }
+   
+   
+  .radio-input {
+    position: relative;
+    padding-left: 35px;
+    display: block;
+    margin-top: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    color: #666666;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+  }
+
+
+  .radio-input input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    
+  }
+
+
+
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+
+.radio-input:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  .radio-input input:checked ~ .checkmark {
+    background-color: #88c9f6;
+
+  }
+  
+  
+  
+ 
+  
+ 
+ 
+   
+  .input-fields label {
+    display: block;
+    margin-bottom: 10px;
+    color: #b4b4b4;
+  }
+   
+
+.column-1,
+.column-2,
+.column-3{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+  
+   
+  #cardnumber,
+  #cardholder {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    width: 100%;
+    height: 40px;
+    padding-right: 40px;
+    padding-left: 16px;
+    color: rgba(46, 46, 46, .8);
+    border: 2px solid rgb(225, 225, 225);
+    border-radius: 4px;
+    outline: none;
+  }
+
+  #date {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    width: 20%;
+    height: 40px;
+    padding-right: 40px;
+    margin-right: 20px;
+    padding-left: 16px;
+    color: rgba(46, 46, 46, .8);
+    border: 2px solid rgb(225, 225, 225);
+    border-radius: 4px;
+    outline: none;
+  } 
+
+  #verification {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    width: 50%;
+    height: 40px;
+    padding-right: 40px;
+    padding-left: 16px;
+    color: rgba(46, 46, 46, .8);
+    border: 2px solid rgb(225, 225, 225);
+    border-radius: 4px;
+    outline: none;
+  } 
+
+  #date::placeholder,
+  #cardnumber::placeholder,
+  #cardholder::placeholder,
+  #verification::placeholder
+  {
+    opacity: 0.5;
+  }
+
+  #date:focus,
+  #cardnumber:focus,
+  #cardholder:focus,
+  #verification:focus
+  {
+
+    border-color: #88c9f6;
+}
+
+
+
+
+  #date { background: url(2.svg) no-repeat 95%; }
+  #verification { background: url(1.svg) no-repeat 95%; }
+
+
+
+
+  .paypalimg { background: url(money.svg) no-repeat 100%; }
+  .visaimg { background: url(Screenshot_1.png) no-repeat 100%;}
+
+
+
+   
+ 
+
+
+
+
+
+
+
+
+  .panel-footer {
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  .btn {
+    font-size: 16px;
+    width: 133px;
+    height: 38px;
+    cursor: pointer;
+    letter-spacing: 1px;
+   
+    border-radius: 5px;
+  }
+   
+  .back-btn {
+    color: #666;
+    background: #fff;
+    border-color: #666;
+    border: 2px solid #666666;
+  }
+   
+  .next-btn {
+    color: #fff;
+    background: #88c9f6;
+    border: none;
+  }
+   
+ 
