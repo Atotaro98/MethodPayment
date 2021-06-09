@@ -1,4 +1,4 @@
 # MethodPayment
-[MethodPayment Preview](https://newworld-countdown.netlify.app/)
+[MethodPayment Preview](https://method-payment-css.netlify.app/)
 ![Preview Page](prev.png)
 
