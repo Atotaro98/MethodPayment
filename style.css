@@ -202,14 +202,14 @@
 
 
 
-  #date { background: url(2.svg) no-repeat 95%; }
-  #verification { background: url(1.svg) no-repeat 95%; }
+  #date { background: url(images/2.svg) no-repeat 95%; }
+  #verification { background: url(images/1.svg) no-repeat 95%; }
 
 
 
 
-  .paypalimg { background: url(money.svg) no-repeat 100%; }
-  .visaimg { background: url(Screenshot_1.png) no-repeat 100%;}
+  .paypalimg { background: url(images/money.svg) no-repeat 100%; }
+  .visaimg { background: url(images/Screenshot_1.png) no-repeat 100%;}
 
 
 
